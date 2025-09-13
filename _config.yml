@@ -11,7 +11,7 @@ repository               : "zhiruozzr/zhiruozzr"
 
 # Author (Sidebar Info)
 author:
-  avatar           : "IMG_1514.JPG"
+  avatar:          : "images/img_1514.jpg"
   name             : "Zhiruo (Rachel) Zhang"
   pronouns         : "she/her"
   bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide. Research interests include Bayesian time series, macroeconometrics, and panel data methods."
