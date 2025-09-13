@@ -6,12 +6,12 @@ title_separator          : "-"
 name                     : &name "Zhiruo (Rachel) Zhang"
 description              : &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 url                      : "https://zhiruozzr.github.io"
-baseurl                  : "/zhiruozzr"
+baseurl                  : ""
 repository               : "zhiruozzr/zhiruozzr"
 
 # Author (Sidebar Info)
 author:
-  avatar           : "img_1514.jpg"
+  avatar           : "IMG_1514.JPG"
   name             : "Zhiruo (Rachel) Zhang"
   pronouns         : "she/her"
   bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide. Research interests include Bayesian time series, macroeconometrics, and panel data methods."
