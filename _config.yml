@@ -6,8 +6,8 @@ title_separator          : "-"
 name                     : &name "Zhiruo (Rachel) Zhang"
 description              : &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 url                      : "https://zhiruozzr.github.io/"
-baseurl                  : ""
-repository               : "zzhrachel/zhiruozhangRZ"
+baseurl                  : "baseurl: "/zhiruozzr""
+repository               : "zhiruozzr"
 
 # Author (Sidebar Info)
 author:
