@@ -5,9 +5,8 @@ url: "https://zhiruozzr.github.io"
 baseurl: "/zhiruozzr"
 repository: "zhiruozzr/zhiruozzr"
 
-# Author (Sidebar Info)
 author:
-  avatar           : "images/img_1514.jpg"
+  avatar           : "images/IMG_1514.JPG"
   name             : "Zhiruo (Rachel) Zhang"
   bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide."
   location         : "Adelaide, Australia"
@@ -16,29 +15,24 @@ author:
   github           : "zzhrachel"
   linkedin         : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid            : "https://orcid.org/0000-0002-4887-3068"
-  googlescholar    : # Add your actual link if available
-  pubmed           : 
-  researchgate     :
-  scopus           :
 
 # Publication Categories
 publication_category:
-  books:
-    title: "Books"
   manuscripts:
     title: "Journal Articles"
   conferences:
     title: "Conference Papers"
+  books:
+    title: "Books"
 
 # Site Settings
-teaser                   : 
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 talkmap_link             : false
 
-# Comments (disabled by default)
+# Comments (disabled)
 comments:
   provider               : false
 
@@ -63,7 +57,7 @@ social:
     - "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
     - "https://github.com/zzhrachel"
 
-# Analytics (disabled by default)
+# Analytics (disabled)
 analytics:
   provider               : false
 
@@ -99,20 +93,21 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
+# Markdown Processing
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -132,7 +127,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # Page Defaults
 defaults:
   - scope:
@@ -145,12 +139,14 @@ defaults:
       comments: false
       share: true
       related: true
+
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+
   - scope:
       path: ""
       type: teaching
@@ -158,25 +154,12 @@ defaults:
       layout: single
       author_profile: true
       share: true
+
   - scope:
       path: ""
       type: publications
     values:
       layout: single
-      author_profile: true
-      share: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
       share: true
 
