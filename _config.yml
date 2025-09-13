@@ -1,13 +1,9 @@
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "air"
-title                    : "Zhiruo (Rachel) Zhang"
-title_separator          : "-"
-name                     : &name "Zhiruo (Rachel) Zhang"
-description              : &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
+title: "Zhiruo (Rachel) Zhang"
+name: &name "Zhiruo (Rachel) Zhang"
+description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 url: "https://zhiruozzr.github.io"
-baseurl: ""  # leave blank
-repository               : "zhiruozzr/zhiruozzr"
+baseurl: "/zhiruozzr"
+repository: "zhiruozzr/zhiruozzr"
 
 # Author (Sidebar Info)
 author:
