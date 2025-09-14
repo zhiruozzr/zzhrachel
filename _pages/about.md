@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: "Zhiruo (Rachel) Zhang"
 author_profile: true
