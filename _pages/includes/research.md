@@ -4,7 +4,7 @@ layout: single
 permalink: /research/
 author_profile: true
 ---
-{% include_relative includes/Research.md %}
+{% include_relative includes/research.md %}
 # 📝 Job Market Paper
 
 ### **Adaptive Bayesian Shrinkage of High-Dimensional Panel VARs** (2025)  
