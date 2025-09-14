@@ -1,20 +1,24 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Zhiruo (Rachel) Zhang"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
-{% include_relative includes/intro.md %}
+# 👋 Welcome
 
-If you like the template of this homepage, welcome to star and fork my open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
+I am a Ph.D. candidate in Economics and Econometrics at the University of Adelaide, currently on the 2025–26 academic job market. My research focuses on high-dimensional Bayesian macroeconometrics, structural time series models, and applied macro-finance.
 
-{% include_relative includes/news.md %}
+My job market paper develops a novel Bayesian shrinkage framework for high-dimensional panel VARs, addressing estimation challenges in large systems. Applied to euro area sovereign bond markets, it reveals new patterns of contagion and time-varying spillovers. More broadly, I aim to build practical tools that connect modern econometrics with pressing macroeconomic questions, including forecasting under uncertainty and the effects of global shocks.
 
-{% include_relative includes/pub.md %}
+📧 Contact me at [zhiruo.zhang@adelaide.edu.au](mailto:zhiruo.zhang@adelaide.edu.au)  
+📄 [Download CV (PDF)](/files/CV_ZhiruoZhang.pdf)  
+📄 [Job Market Paper (PDF)](/files/JMP_ZhiruoZhang.pdf)
 
-{% include_relative includes/others.md %}
+---
+
+## 🔍 Quick Links
+
+- [Research](/research/)
+- [CV](/cv/)
+- [Teaching](/teaching/)
+- [Contact](/#about-me)
