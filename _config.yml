@@ -7,11 +7,8 @@ description: &description "Ph.D. Candidate in Economics and Econometrics at The 
 repository: "zhiruozzr/zhiruozzr.github.io"
 
 author:
-  avatar    : "images/profile.jpg"
-  name: |
-  Zhiruo (Rachel) Zhang  
-  张芷若
-
+  avatar    : "/images/profile.jpg"
+  name      : "Zhiruo (Rachel) Zhang (张芷若)"
   bio       : *description
   location  : "Adelaide, Australia"
   employer  : "The University of Adelaide"
@@ -19,6 +16,7 @@ author:
   github    : "zhiruozzr"
   linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid     : "https://orcid.org/0000-0002-4887-3068"
+
 
 # Directory settings
 include:
