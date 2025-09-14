@@ -4,9 +4,7 @@ site_theme: "air"
 title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
-url: "https://zhiruozzr.github.io"
-baseurl: "/zhiruozzr"
-repository: "zhiruozzr/zhiruozzr"
+repository: "zhiruozzr/zhiruozzr.github.io"
 
 author:
   avatar    : "images/IMG_1514.JPG"
