@@ -3,64 +3,24 @@ name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 repository: "zhiruozzr/zhiruozzr.github.io"
 
+# Author Info
 author:
-  avatar           : "images/IMG_1514.JPG"
-  name             : "Zhiruo (Rachel) Zhang (张芷若)"
-  bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide."
-  location         : "Adelaide, Australia"
-  employer         : "The University of Adelaide"
-  email            : "zhiruo.zhang@adelaide.edu.au"
-  github           : "zhiruozzr"
-  linkedin         : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
-  orcid            : "https://orcid.org/0000-0002-4887-3068"
+  avatar    : "images/IMG_1514.JPG"
+  name      : "Zhiruo (Rachel) Zhang (张芷若)"
+  bio       : *description
+  location  : "Adelaide, Australia"
+  employer  : "The University of Adelaide"
+  email     : "zhiruo.zhang@adelaide.edu.au"
+  github    : "zhiruozzr"
+  linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
+  orcid     : "https://orcid.org/0000-0002-4887-3068"
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-  - google_scholar_crawler
-  - github_myprofile_updater
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
+# Build settings
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+theme: minima
 
-
-# Markdown Processing
+# Markdown options
 kramdown:
   input: GFM
   hard_wrap: false
@@ -69,11 +29,42 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-# Defaults
+# Directory settings
+include:
+  - _pages
+  - files
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README
+  - Rakefile
+  - package.json
+  - .gitignore
+  - .jekyll-cache
+  - .sass-cache
+  - assets/js/vendor
+  - tmp
+  - log
+  - google_scholar_crawler
+  - github_myprofile_updater
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Permalinks & Timezone
+permalink: /:categories/:title/
+timezone: Australia/Adelaide
+
+# Layout defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
@@ -81,36 +72,28 @@ defaults:
       layout: default
       author_profile: true
 
-
-# Sass/SCSS
+# Sass
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Australia/Adelaide # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+# Plugins (GitHub Pages safe list)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
-  - jemoji
+  - jekyll-paginate
 
+# Whitelist for GitHub Pages safe mode
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-gist
+  - jekyll-paginate
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
