@@ -4,7 +4,7 @@ layout: single
 permalink: /teaching/
 author_profile: true
 ---
-{% include_relative includes/Teaching.md %}
+{% include_relative includes/teaching.md %}
 # 🧑‍🏫 Teaching Experience
 
 ### University of Adelaide
