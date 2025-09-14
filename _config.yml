@@ -1,7 +1,7 @@
 title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
-repository: "zhiruozzr/zhiruozzr"
+repository: "zhiruozzr/zhiruozzr.github.io"
 
 # Author Info
 author:
@@ -16,19 +16,13 @@ author:
   orcid     : "https://orcid.org/0000-0002-4887-3068"
 
 # Build settings
+remote_theme: academicpages/academicpages.github.io
 markdown: kramdown
 highlighter: rouge
-theme: minima
 
 # Markdown options
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
 
 # Directory settings
 include:
@@ -49,52 +43,15 @@ exclude:
   - assets/js/vendor
   - tmp
   - log
-  - google_scholar_crawler
-  - github_myprofile_updater
 
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Permalinks & Timezone
-permalink: /:categories/:title/
+# Timezone and Permalink
 timezone: Australia/Adelaide
+permalink: /:categories/:title/
 
-# Layout defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Plugins (GitHub Pages safe list)
+# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-gist
   - jekyll-paginate
-
-# Whitelist for GitHub Pages safe mode
-whitelist:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-gist
-  - jekyll-paginate
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
