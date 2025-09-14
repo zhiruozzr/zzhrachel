@@ -7,7 +7,7 @@ description: &description "Ph.D. Candidate in Economics and Econometrics at The 
 repository: "zhiruozzr/zhiruozzr.github.io"
 
 author:
-  avatar    : "images/profile.JPG"
+  avatar    : "images/profile.jpg"
   name      : "Zhiruo (Rachel) Zhang (张芷若)"
   bio       : *description
   location  : "Adelaide, Australia"
