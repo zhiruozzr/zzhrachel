@@ -1,19 +1,49 @@
+# 📖 Education  
+- **Ph.D. in Economics and Econometrics**, *University of Adelaide*, Australia  
+  *2022 – Present (Expected Completion: June 2026)*  
 
-# 📖 Educations
-- *2019.06 - 2022.04*, Master, Zhejiang University, Hangzhou.
-- *2015.09 - 2019.06*, Undergraduate, Chu Kochen Honors College, Zhejiang Univeristy, Hangzhou.
-- *2012.09 - 2015.06*, Luqiao Middle School, Taizhou.
+- **Master of Applied Econometrics**, *Monash University*, Australia  
+  *Jul 2016 – Jul 2021*  
+  - Dissertation: *Empirical Analysis of a Time-varying Vector Autoregression Model*  
+  - Supervisor: Prof. Jiti Gao  
 
-# 💬 Invited Talks
-- *2022.02*, Hosted MLNLP seminar \| [\[Video\]](https://www.bilibili.com/video/BV1wF411x7qh)
-- *2021.06*, Audio & Speech Synthesis, Huawei internal talk
-- *2021.03*, Non-autoregressive Speech Synthesis, PaperWeekly & biendata \| [\[video\]](https://www.bilibili.com/video/BV1uf4y1t7Hr/)
-- *2020.12*, Non-autoregressive Speech Synthesis, Huawei Noah's Ark Lab internal talk
+- **Bachelor of Business**, *Monash University*, Australia  
+  - Major: Finance; Minor: Business Statistics  
 
-# 💻 Internships
-- *2021.06 - 2021.09*, Alibaba, Hangzhou.
-- *2019.05 - 2020.02*, [EnjoyMusic](https://enjoymusic.ai/), Hangzhou.
-- *2019.02 - 2019.05*, [YiWise](https://www.yiwise.com/), Hangzhou.
-- *2018.08 - 2019.02*, [MSRA, machine learning Group](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/), Beijing.
-- *2018.01 - 2018.06*, [NetEase, AI department](https://hr.163.com/zc/12-ai/index.html), Hangzhou.
-- *2017.08 - 2018.12*, DashBase (acquired by [Cisco](https://blogs.cisco.com/news/349511)), Hangzhou.
+---
+
+# 💬 Conference & Seminar Presentations  
+- **Scheduled**: 39th Annual Australian PhD Conference in Economics and Business, *UNSW*, November 27–28, 2025  
+
+### 2025  
+- World Congress, Econometric Society  
+
+### 2024  
+- Australasian Meeting of the Econometric Society  
+- Continuing Education in Macroeconometrics  
+- Australian Conference of Economists  
+- Africa Meeting of the Econometric Society  
+- The 32nd Australia New Zealand Econometric Study Group Meeting  
+
+### 2023  
+- 31st Australia New Zealand Econometric Study Group Meeting (Poster)  
+- SEPP Brainbag Workshop, University of Adelaide  
+
+### 2024 (Internal)  
+- HDR Internal Seminar, School of Economics and Public Policy  
+
+---
+
+# 🧑‍🏫 Teaching Experience  
+**Tutor**, *University of Adelaide*  
+
+- ECON3530: Applied Econometrics III (S1 2024, S1 2025)  
+- ECON3510: International Finance III (S2 2024, S2 2025)  
+- ECON2508: Financial Economics II (S1 2024)  
+- ECON2513: Global Economic History II (S2 2025)  
+- ECON2514: Managerial Economics II (S2 2023, S2 2024)  
+- ECON1005: Introduction to Mathematical Economics I (S1 2024, S1 2025)  
+
+**Other Contributions**  
+- Converted econometrics teaching material from **Stata to R**  
+- Created code-based examples and detailed solution templates  
