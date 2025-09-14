@@ -3,6 +3,9 @@ layout: home
 permalink: /
 title: "Zhiruo (Rachel) Zhang"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 # 👋 Welcome
