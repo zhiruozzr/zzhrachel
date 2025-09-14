@@ -15,20 +15,11 @@ author:
   linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid     : "https://orcid.org/0000-0002-4887-3068"
 
-# Build settings
-remote_theme: academicpages/academicpages.github.io
-markdown: kramdown
-highlighter: rouge
-
-# Markdown options
-kramdown:
-  input: GFM
 
 # Directory settings
 include:
   - _pages
   - files
-
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -44,14 +35,92 @@ exclude:
   - tmp
   - log
 
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  
 # Timezone and Permalink
 timezone: Australia/Adelaide
 permalink: /:categories/:title/
 
-# Plugins supported by GitHub Pages
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
