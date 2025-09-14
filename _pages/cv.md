@@ -4,7 +4,6 @@ layout: single
 permalink: /cv/
 author_profile: true
 ---
-{% include_relative includes/cv.md %}
 
 # 🎓 Education
 
