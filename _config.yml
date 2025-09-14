@@ -1,6 +1,6 @@
 # Theme (use academicpages as a remote theme)
 locale                   : "en-US"
-site_theme: "air"
+site_theme               : "default"
 title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
