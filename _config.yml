@@ -8,7 +8,10 @@ repository: "zhiruozzr/zhiruozzr.github.io"
 
 author:
   avatar    : "images/profile.jpg"
-  name      : "Zhiruo (Rachel) Zhang (张芷若)"
+  name: |
+  Zhiruo (Rachel) Zhang  
+  张芷若
+
   bio       : *description
   location  : "Adelaide, Australia"
   employer  : "The University of Adelaide"
@@ -21,6 +24,7 @@ author:
 include:
   - _pages
   - files
+  - images
 exclude:
   - Gemfile
   - Gemfile.lock
