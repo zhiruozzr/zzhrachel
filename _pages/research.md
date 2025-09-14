@@ -4,7 +4,7 @@ layout: single
 permalink: /research/
 author_profile: true
 ---
-
+{% include base_path %}
 # 📝 Job Market Paper
 
 ### **Adaptive Bayesian Shrinkage of High-Dimensional Panel VARs** (2025)  
