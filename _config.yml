@@ -2,11 +2,11 @@ title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 url: "https://zhiruozzr.github.io"
-baseurl: ""
+baseurl: "/zhiruozzr"
 repository: "zhiruozzr/zhiruozzr"
 
 author:
-  avatar           : "images/img_1514.jpg"
+  avatar: "/zhiruozzr/images/img_1514.jpg"
   name             : "Zhiruo (Rachel) Zhang"
   bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide."
   location         : "Adelaide, Australia"
