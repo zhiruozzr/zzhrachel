@@ -1,13 +1,11 @@
 title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
-url: "https://zhiruozzr.github.io"
-baseurl: "/zhiruozzr"
-repository: "zhiruozzr/zhiruozzr"
+repository: "zhiruozzr/zhiruozzr.github.io"
 
 author:
   avatar           : "images/IMG_1514.JPG"
-  name             : "Zhiruo (Rachel) Zhang"
+  name             : "Zhiruo (Rachel) Zhang (张芷若)"
   bio              : "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide."
   location         : "Adelaide, Australia"
   employer         : "The University of Adelaide"
@@ -15,51 +13,6 @@ author:
   github           : "zhiruozzr"
   linkedin         : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid            : "https://orcid.org/0000-0002-4887-3068"
-
-# Publication Categories
-publication_category:
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
-  books:
-    title: "Books"
-
-# Site Settings
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-
-# Comments (disabled)
-comments:
-  provider               : false
-
-# Atom Feed
-atom_feed:
-  hide                   : false
-
-# Social Sharing
-twitter:
-  username               : 
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
-og_description           :
-social:
-  type                   : Person
-  name                   : "Zhiruo Zhang"
-  links:
-    - "https://orcid.org/0000-0002-4887-3068"
-    - "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
-    - "https://github.com/zzhrachel"
-
-# Analytics (disabled)
-analytics:
-  provider               : false
 
 # Reading Files
 include:
@@ -71,43 +24,43 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - CHANGELOG
-  - Capfile
   - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
   - gulpfile.js
-  - LICENSE
-  - local
   - log
   - node_modules
-  - package.json*
-  - Rakefile
-  - README
+  - package.json
   - tmp
   - vendor
-
+  - google_scholar_crawler
+  - github_myprofile_updater
 keep_files:
   - .git
   - .svn
-
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Markdown Processing
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -118,86 +71,46 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-
-# Page Defaults
+# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
 
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Permalink & Timezone
+
+# Outputting
 permalink: /:categories/:title/
-timezone: Etc/UTC
+timezone: Australia/Adelaide # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jekyll-redirect-from
-  - jemoji
-
+# mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # HTML Compression
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
