@@ -16,18 +16,13 @@ author:
   linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid     : "https://orcid.org/0000-0002-4887-3068"
 
-# Enable top nav bar
-header_pages:
-  - _pages/research.md
-  - _pages/cv.md
-  - _pages/teaching.md
-#  - _pages/contact.md
-  
+
 # Directory settings
 include:
   - _pages
   - files
   - images
+  - .htaccess
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -63,6 +58,37 @@ kramdown:
 timezone: Australia/Adelaide
 permalink: /:categories/:title/
 
+# These settings control how pages and collections are included in the site
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: cv
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+      
 # Sass
 sass:
   sass_dir: _sass
