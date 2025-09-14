@@ -1,3 +1,7 @@
+# Theme (use academicpages as a remote theme)
+locale                   : "en-US"
+site_theme: "air"
+
 title: "Zhiruo (Rachel) Zhang"
 name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
@@ -13,9 +17,6 @@ author:
   github    : "zhiruozzr"
   linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid     : "https://orcid.org/0000-0002-4887-3068"
-
-# Theme (use academicpages as a remote theme)
-remote_theme: academicpages/academicpages.github.io
 
 # Directory settings
 include:
