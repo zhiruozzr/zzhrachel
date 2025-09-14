@@ -3,7 +3,6 @@ name: &name "Zhiruo (Rachel) Zhang"
 description: &description "Ph.D. Candidate in Economics and Econometrics at The University of Adelaide"
 repository: "zhiruozzr/zhiruozzr.github.io"
 
-# Author Info
 author:
   avatar    : "images/IMG_1514.JPG"
   name      : "Zhiruo (Rachel) Zhang (张芷若)"
@@ -15,6 +14,8 @@ author:
   linkedin  : "https://www.linkedin.com/in/zhiruo-zhang-016b86179/"
   orcid     : "https://orcid.org/0000-0002-4887-3068"
 
+# Theme (use academicpages as a remote theme)
+remote_theme: academicpages/academicpages.github.io
 
 # Directory settings
 include:
@@ -38,11 +39,9 @@ exclude:
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -52,25 +51,17 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  
-# Timezone and Permalink
+
+# Permalinks & Timezone
 timezone: Australia/Adelaide
 permalink: /:categories/:title/
 
-# Sass/SCSS
+# Sass
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+# Plugins (GitHub Pages allowlisted)
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -79,7 +70,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -88,38 +78,15 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
